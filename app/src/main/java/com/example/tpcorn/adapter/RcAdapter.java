@@ -1,8 +1,7 @@
-package com.example.tpcorn;
+package com.example.tpcorn.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +11,9 @@ import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.tpcorn.R;
+import com.example.tpcorn.model.Result;
+import com.example.tpcorn.ui.MainActivity2;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -20,7 +22,7 @@ import java.util.List;
 public class RcAdapter extends RecyclerView.Adapter<RcAdapter.MyHolder> {
 
     Context context;
-    List<Result> resultList = new ArrayList<>();
+    List<Result> resultList;
     public RcAdapter(Context context,List<Result> resultList){
         this.context = context;
         this.resultList=resultList;
@@ -44,7 +46,7 @@ public class RcAdapter extends RecyclerView.Adapter<RcAdapter.MyHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context,MainActivity2.class);
+                Intent intent = new Intent(context, MainActivity2.class);
                 intent.putExtra("id",id);
                 context.startActivity(intent);
 

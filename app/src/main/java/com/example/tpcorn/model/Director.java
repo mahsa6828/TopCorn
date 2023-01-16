@@ -1,4 +1,4 @@
-package com.example.tpcorn;
+package com.example.tpcorn.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

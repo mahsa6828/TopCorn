@@ -1,10 +1,6 @@
-package com.example.tpcorn;
+package com.example.tpcorn.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
-import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,8 +8,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.example.tpcorn.api.ApiService;
 import com.example.tpcorn.databinding.ActivityMain2Binding;
-import com.example.tpcorn.databinding.ActivityMainBinding;
+import com.example.tpcorn.model.BaseModeInfo;
 import com.squareup.picasso.Picasso;
 
 import io.reactivex.SingleObserver;
@@ -21,11 +18,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity2 extends AppCompatActivity {
     ActivityMain2Binding binding;

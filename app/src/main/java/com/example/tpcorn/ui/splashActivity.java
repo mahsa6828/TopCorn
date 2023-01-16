@@ -1,4 +1,4 @@
-package com.example.tpcorn;
+package com.example.tpcorn.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.tpcorn.R;
 
 
 public class splashActivity extends AppCompatActivity {

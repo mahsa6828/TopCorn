@@ -1,7 +1,9 @@
-package com.example.tpcorn;
+package com.example.tpcorn.api;
+
+import com.example.tpcorn.model.BaseModeInfo;
+import com.example.tpcorn.model.BaseModelGetMovies;
 
 import io.reactivex.Single;
-import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 
