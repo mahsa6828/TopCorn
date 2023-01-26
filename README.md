@@ -1,1 +1,1 @@
-This is an application to fetch an display movies from Imdb Api and build with Rxjava and Retrofit dependency
+This is an application to fetch an display movies from Imdb Api and build with Rxjava and Retrofit library.
