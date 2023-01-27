@@ -1,1 +1,3 @@
-This is an application to fetch an display movies from Imdb Api and build with Rxjava and Retrofit library.
+# TopCorn
+**TopCorn** is a native Android app to fetch and browse through top movies from IMDB website
+**TopCorn** is using the IMDB Api and it's built with Rxjava and the Retrofit library.
