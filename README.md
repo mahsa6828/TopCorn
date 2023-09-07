@@ -4,5 +4,7 @@
 
 **TopCorn** has been developed using Android Studio and Java programming languate. It is utilising many fundamental Android SDK app development features and principals
 # Screen Shot
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](app/src/main/res/drawable/screenshottopcorn1.jpg)
+<img src="https://github.com/mahsa6828/TopCorn/assets/24524768/257d972b-6e40-4aca-89cd-f2493068e2a3" width="200" height="400"/> | 
+<img src="https://github.com/mahsa6828/TopCorn/assets/24524768/01f2bb04-99f8-4cd1-b033-8069707ce584" width="200" height="400"/> |
+<img src="https://github.com/mahsa6828/TopCorn/assets/24524768/e90527d0-d804-416e-94a6-b62c2a4a0c51" width="200" height="400"/> |
 
